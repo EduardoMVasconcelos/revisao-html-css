@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Revisão HTML e CSS</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#listas">Listas</a>
+            <a href="#tabelas">Tabelas</a>
+            <a href="#formularios">Formulários</a>
+        </nav>
+    </header>
+    <main>
+        <section id="listas">
+            <h2>Listas</h2>
+            <ol>
+                <li>Pudim</li>
+                <li>Arroz</li>
+                <li>Feijão</li>
+                <li>Frango</li>
+                <li>Carne</li>
+            </ol>
+            <ul>
+                <li>Gta V</li>
+                <li>Tomb raider</li>
+                <li>Euro truck</li>
+                <li>The sims 4</li>
+                <li>Perfect World</li>
+            </ul>
+        </section>
+
+        <section id="tabelas">
+            <h2>Tabelas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Sobrenome</th>
+                        <th>Idade</th>
+                        <th>Cidade</th>
+                        <th>Estado</th>
+                        <th>País</th>
+                    </tr> 
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>João</td>
+                        <td>Silva</td>
+                        <td>21</td>
+                        <td>SP</td>
+                        <td>SP</td>
+                        <td>Brasil</td>
+                    </tr>
+                    <tr>
+                        <td>Mateus</td>
+                        <td>Costa</td>
+                        <td>34</td>
+                        <td>MG</td>
+                        <td>MG</td>
+                        <td>Brasil</td>
+                    </tr>
+                    <tr>
+                        <td>Wesley</td>
+                        <td>Figueira</td>
+                        <td>50</td>
+                        <td>Copacabana</td>
+                        <td>RJ</td>
+                        <td>Brasil</td>
+                    </tr>  
+                </tbody> 
+            </table>
+        </section>
+
+        <section id="formularios">
+            <h2>Formulários</h2>
+            
+            <div class="formulario">
+                <form action="">
+                    <div class="name">
+                        <label for="nome">Nome</label>
+                        <input type="text" placeholder="Nome" id="nome">
+                    </div>
+                    
+                    <div class="password">
+                        <label for="senha">Senha:</label>
+                        <input type="password" placeholder="Senha" id="senha">
+                    </div>
+                    
+                    <div class="date">
+                        <label for="data">Data de nascimento</label>
+                        <input type="date" id="data"> 
+                    </div>
+                    
+                    <div class="checkbox">
+                       <span>Nascido no Brasil?</span>
+                       <div class="escolha">
+                        <input type="radio" id="sim" name="escolha">
+                        <label for="sim">Sim</label>
+
+                        <input type="radio" id="nao" name="escolha">
+                        <label for="nao">Não</label> 
+                       </div>
+                    </div>
+                    
+                    <div class="color">
+                        <label for="cor" id="texto">Selecione uma cor</label>
+                        <input type="color" id="cor">
+                    </div>
+                    
+                    <div class="submit">
+                       <input id="submit" type="submit" value="Enviar"> 
+                    </div>
+                    
+                </form>
+            </div>
+            
+        </section>
+    </main>
+</body>
+</html>
